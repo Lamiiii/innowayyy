@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(10, 10, 100);
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.row{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.logo img{
+    border-radius: 50px;
+}
+.navigation ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 22px;  
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.navigation ul li a:hover{
+    box-shadow: 0 1px black;
+    padding: 5px;
+}
+
+.apply-btn button{
+    padding: 15px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(101, 172, 233);
+    font-size: 15px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.button{
+    margin-top: -200px;
+}
+
+#texts{
+    background-image: url(./360_F_102483600_JGhPmhrAfzEeWIib532EtIqAcvRCYaMi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+  }
+
+  .buttons {
+    display: flex;
+    margin-left: -150px;
+}
+
+.addition-btn button{
+    padding: 13px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(33, 33, 82);
+    color: aliceblue;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.addition-btn{
+    margin-top:-200px ;
+}
+
+.texts h1{
+    color: aliceblue;
+    font-size: 70px;
+}
+
+.texts p{
+    color: aliceblue;
+    margin-top: 6px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.people-img img{
+    border-radius: 400px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.wrapper-about-img img{
+    border-radius: 250px;
+}
+
+.wrapper-about-img{
+    position: relative;
+}
+.col{
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    
+}
+.about-us{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-work{
+    font-size: 35px;
+    font-weight: bold;
+  
+}
+
+.about-greeting{
+    font-size: 18px;
+    color: rgb(176, 175, 175);
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.about-introduce{
+    display: flex;
+}
+
+.about-introduce img{
+    background-color: rgb(215, 211, 211);
+    border-radius: 20px;
+}
+
+.teachers-text h6{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.teachers-text p{
+    font-size: 18px;
+    color: rgb(197, 196, 196);
+
+}
+
+.col-6{
+    width: calc(100%/12 *6);
+}
+
+
+.about-introduce{
+    box-shadow: 2px 1px 1px  rgb(167, 206, 240);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.col-3{
+    width: calc(300%/12);
+    padding: 5px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.topic{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.catagories{
+    text-align: center;
+    margin-top: 200px;
+}
+
+h5{
+    margin-left: 90px;
+    height: 100px;
+    font-size: 30px;  
+}
+
+.card{
+    box-shadow: 1px 1px 1px 1px rgb(231, 227, 227);
+    border-radius: 20px;
+}
+
+
+#wrapper-courses{
+    background-image: url(./violet-watercolor-texture-background_1083-172.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.col-4{
+    width: calc(400%/12);
+    padding: 5px;
+    
+}
+
+.cols{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.courses h3{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.image-first{
+    border-radius: 100px;
+    position: absolute;
+    bottom: 50px;
+    right: -20px;
+
+
+}
+.card-first{
+   position: relative;
+   top: 200px;
+   box-shadow: 1px 1px 1px 1px rgb(220, 217, 217);
+   padding: 10px;
+   margin-left: 40px;
+   border-radius: 15px;
+}
+
+.card-first:hover{
+    border: 1px solid black;
+}
+
+.programming-teacher img{
+    border-radius: 30px;
+    position: relative;
+}
+
+h6{
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+}
+
+.about-teacher p{
+    margin-left: 55px;
+    color: rgb(155, 151, 151);
+}
+
+.about-teachers{
+    box-shadow: 1px 1px 1px 1px rgb(217, 224, 231);
+    background-color: rgb(205, 205, 237);
+    border-radius: 20px;
+    padding: 5px;
+    }
+
+.time{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(26, 26, 121);
+    padding: 2px;
+    color: aliceblue;
+}
+
+.area{
+    color: rgb(153, 150, 150);
+}
+
+.about-feedback{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.bi-pin-angle{
+    font-size:40px ;
+    color: rgb(104, 169, 226);
+}
+
+.about-feedback p{
+    font-size: 18px;
+    color: rgb(173, 171, 171);
+    margin-top: 25px;
+}
+
+.about-feedback img{
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.about-feedback .name{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.about-feedback .Elektronika{
+    margin-left: 100px;
+    color: rgb(180, 177, 177);
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.wrapper-circle div{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid black;  
+    margin: 5px;
+}
+
+.wrapper-circle .circle{
+    background-color: black;
+}
+
+.wrapper-circle{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 10px;
+    list-style-type: disc;
+    
+}
+
+#acquaintance{
+    background-image:url(bacground-img.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.teachers{
+    font-size: 35px;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(15, 15, 145);
+    text-align: center;    
+}
+
+.about-prrogramming{
+    margin-top:150px;
+}
+
+.acquaintance-teacher{
+    font-size: 45px;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(8, 8, 81);
+    text-align: center    
+}
+
+.reading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper-teacher{
+  display: flex;
+  justify-content: space-around;
+  padding: 160px;
+}
+
+.first-teacher{
+    margin-top: 100px;
+}
+.first-teacher img{
+    border-radius: 200px;
+}
+
+.first-teacher img:hover{
+    box-shadow:3px 5px 5px  2px rgb(43, 101, 152) ;
+}
+.first-teacher-name{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.first-teacher-name:hover{
+    font-size: 35px;
+}
+
+.col-4{
+    width: (100%/12 *4);
+}
+
+.col-8{
+    width: (100%/12 *8);
+}
+
+.about-img img{
+    border-top-left-radius:40px;
+    border-bottom-left-radius: 40px; 
+}
+
+.area-name{
+    font-size: 35px;
+    font-weight:900;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgb(24, 24, 124);
+}
+
+.area-name:hover{
+    box-shadow: 0 1px black;
+
+}
+.column .about-teacher{
+    margin-top:35px ;
+    margin-left:15px ;
+    background-color: rgb(235, 240, 246);
+    width: 700px;  
+    padding: 10px;   
+    border-radius:40px ;
+}
+
+.teacher{
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 15px; 
+    margin: 10px;
+}
+
+.date{
+    margin-left: 500px;
+    color: rgb(105, 176, 239);
+    font-size: 18px;  
+}
+
+.developer{
+    font-size: 12px;
+    margin-left: 80px;
+}
+
+.teacher img {
+    border-radius: 100px;
+}
+
+
+.react{
+    border-radius: 50px;
+}
+ .img-first{
+    display: inline-block;
+    margin-left: 20px;
+   box-shadow: 1px 2px 1px 1px rgb(219, 230, 235);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.img-second{
+    display: inline-block;
+    margin-left: 50px;
+    box-shadow: 1px 1px 1px 1px rgb(197, 215, 231);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.icon{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(13, 13, 114) ;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 6px;
+}
+
+.copyright-innoway{
+    width: 75%;
+    text-align: center;
+    color: rgb(190, 210, 227);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.wrapper-icon{
+    margin-top: 10px;
+    margin-left: 700px;
+    width: 25%;
+    font-size:20px ;
+    color: orange;
+    padding: 8px;
+}
+
+#fast{
+    margin-top: 180px;
+}
+.column{
+    display: flex;
+    margin-top: 50px;
+    box-shadow: 1px 0px 1px 1px rgb(225, 219, 219);
+    border-radius: 60px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
